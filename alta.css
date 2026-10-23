@@ -1,0 +1,56 @@
+html {
+    width: 1400px;
+}
+
+body {
+    background-color: rgb(236, 203, 232);
+    /* Regla de 3: (1000px body / 1400px html) * 100 = 71.42857142857143% */
+    width: 71.42857142857143%;
+
+    /* Regla de 3: (40px margin / 1400px html) * 100 = 2.857142857142857% */
+    margin: 2.857142857142857%;
+}
+
+div {
+    background-color: rgb(149, 211, 180);
+    /* Regla de 3: (500px div / 1000px body) * 100 = 50% */
+    width: 50%;
+
+    height: 600px;
+    border: 4px solid rgb(29, 133, 124);
+
+    /* Regla de 3: (20px padding / 1000px body) * 100 = 2% */
+    padding-left: 2%;
+}
+
+p {
+    display: inline-block;
+
+    /* Regla de 3: (150px margin / 500px div) * 100 = 30% */
+    margin-right: 30%;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+
+    /* Regla de 3: (150px margin / 500px div) * 100 = 30% */
+    margin-right: 30%;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+select {
+    /* Regla de 3: (7px padding / 500px form) * 100 = 1.4% */
+    padding: 1.4%;
+}
+
+#submit {
+    /* Regla de 3: (100px width / 500px form) * 100 = 20% */
+    width: 20%;
+    height: 50px;
+    background-color: rgb(195, 212, 226);
+}
